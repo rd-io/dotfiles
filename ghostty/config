@@ -1,0 +1,22 @@
+background = 111111
+foreground = cccccc
+
+theme = RaylanDark
+shell-integration = bash
+mouse-hide-while-typing = true
+background-opacity = 0.8
+
+window-inherit-font-size = false
+window-decoration = false
+window-padding-x = 5
+window-padding-y = 5
+window-padding-color = extend
+
+keybind = ctrl+alt+p=toggle_window_decorations
+
+font-size = 11
+font-family = HackNerdFontMono
+font-feature = -liga
+font-feature = -calt
+font-feature = -dlig
+

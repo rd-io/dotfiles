@@ -1,8 +1,9 @@
 return {
     "neovim/nvim-lspconfig",
     config = function()
-        local lspconfig = require("lspconfig")
-        --lspconfig.clangd.setup({})
-        --lspconfig.lua_ls.setup({})
+        local _border = "single"
+        require("lspconfig.ui.windows").default_options = {
+            border = _border
+        }
     end,
 }

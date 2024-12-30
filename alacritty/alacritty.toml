@@ -1,25 +1,15 @@
 # alacritty configuration
 
 [window]
-#decorations = "none"
-title = "rd-terminal"
-
-[window.dimensions]
-columns = 120
-lines = 36
+decorations = "none"
+opacity = 0.95
 
 [window.padding]
 x = 5
 y = 5
 
-[cursor]
-style = { shape = "Block", blinking = "Off" }
-
-[env]
-TERM = "xterm-256color ssh"
-
 [font]
-size   = 13
+size   = 11
 
 [font.normal]
 family = "HackNerdFontMono"
@@ -32,6 +22,9 @@ family = "HackNerdFontMono"
 
 [font.bold_italic]
 family = "HackNerdFontMono"
+
+[colors]
+transparent_background_colors = true
 
 [colors.primary]
 background = "#111111"
