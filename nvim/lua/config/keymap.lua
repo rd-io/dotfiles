@@ -35,4 +35,9 @@ node_incremental = "<leader>si",
 scope_incremental = "<leader>sc",
 node_decremental = "<leader>sd",
 
-]]--
+-- keybind from conform
+format = "<leader>tf"
+
+-- keybind from nvim-lint
+lint = "<leader>tl"
+]] --
