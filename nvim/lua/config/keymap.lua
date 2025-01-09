@@ -11,6 +11,10 @@ vim.keymap.set("n", "<leader>c", "<CMD>:nohlsearch<CR>")
 -- open terminal
 vim.keymap.set("n", "<leader>ot", "<CMD>:vsplit<CR>:wincmd j<CR>" .. ":terminal<CR>")
 
+-- lazy, mason open
+vim.keymap.set("n", "<leader>l", "<CMD>:Lazy<CR>")
+vim.keymap.set("n", "<leader>m", "<CMD>:Mason<CR>")
+
 -- splits
 vim.keymap.set("n", "<leader>h", "<CMD>:split<CR>")
 vim.keymap.set("n", "<leader>v", "<CMD>:vsplit<CR>")

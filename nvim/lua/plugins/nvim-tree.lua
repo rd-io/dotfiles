@@ -15,8 +15,8 @@ return {
             view = {
                 side = "right",
                 width = 35,
-                number = true,
-                relativenumber = true,
+                --number = true,
+                --relativenumber = true,
                 float = {
                     enable = true,
                     quit_on_focus_loss = true,
@@ -24,6 +24,7 @@ return {
                         relative = "editor",
                         border = "rounded",
                         width = 75,
+                        height = 48,
                         col = 999,
                         row = 0
                     },
