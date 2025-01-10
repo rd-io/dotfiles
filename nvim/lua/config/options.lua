@@ -8,6 +8,8 @@ vim.opt.relativenumber = true
 vim.opt.scrolloff = 999
 vim.opt.list = true
 vim.opt.listchars = "tab:>·,trail:·,extends:·,precedes:·,space:·"
+-- vim.opt.listchars = "tab:>•,trail:•,extends:•,precedes:•,space:•"
+
 vim.cmd "set cursorline"
 vim.cmd "set colorcolumn=81"
 vim.cmd "set signcolumn=yes"
